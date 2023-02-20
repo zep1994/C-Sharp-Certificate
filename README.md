@@ -1,2 +1,0 @@
-# C-Shap
- Learning C#
