@@ -9,9 +9,17 @@ int age = 43;
 
 bool b = age >= 12;
 
-switch (age) {
-    case 43:
+Console.WriteLine("What do you want to do?");
+Console.WriteLine("1: Nothing");
+Console.WriteLine("2: Something");
+string input = Console.ReadLine();
+
+switch (input) {
+    case "1":
         Console.WriteLine("That is fine.");
+        break;
+    case "2":
+        Console.WriteLine("That is great.");
         break;
     default:
         Console.WriteLine("Great");
