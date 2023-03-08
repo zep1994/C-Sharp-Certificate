@@ -2,7 +2,7 @@
 using Playground;
 
 
-Class1 class = new Class1("Tom", "Golden");
+Class1 class1 = new Class1("Tom", "Golden");
 
 
 
