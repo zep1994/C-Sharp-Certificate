@@ -10,6 +10,8 @@
 //bool b = age >= 12;
 static void Menu()
 {
+    Console.WriteLine("Welcome! \nSelect your choice!");
+
     Console.WriteLine("What do you want to do?");
     Console.WriteLine("1: Nothing");
     Console.WriteLine("2: Something");
@@ -34,7 +36,7 @@ while (input != 99)
             break;
     }
     Menu();
-    if ((input != 1) || (input != 2) || (input != 99) && (input != 0)) {
+    if ((input != 1) || (input != 2) || (input != 99)) {
         input = int.Parse(Console.ReadLine());
     }
 }
