@@ -1,5 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+using Playground;
+
+
+Class1 class = new Class1("Tom", "Golden");
+
+
+
+
+
+// See https://aka.ms/new-console-template for more information
 //Console.WriteLine("Hello, World!");
+
 
 
 //DateTime hireDate = new DateTime();
@@ -8,7 +19,7 @@
 //int age = 43;
 
 //bool b = age >= 12;
-static void Menu()
+/*static void Menu()
 {
     Console.WriteLine("Welcome! \nSelect your choice!");
 
@@ -41,4 +52,4 @@ while (input != 99)
     }
 }
 
-Console.WriteLine("Exiting Application.");
+Console.WriteLine("Exiting Application.");*/
